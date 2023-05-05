@@ -1,4 +1,4 @@
-﻿using ClinicaMedica;
+﻿using ClinicaMedica.Paciente;
 
 Pessoa zw = new Pessoa();
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClinicaMedica
+namespace ClinicaMedica.Paciente
 {
     public class Pessoa
     {
@@ -15,10 +15,10 @@ namespace ClinicaMedica
 
         public string InfoPaciente()
         {
-            return $"Nome: {this.nome} \n" +
-                   $"Idade: {this.idade} anos \n" +
-                   $"Altura: {this.altura} m \n" +
-                   $"Peso: {this.peso} kg \n";
+            return $"Nome: {nome} \n" +
+                   $"Idade: {idade} anos \n" +
+                   $"Altura: {altura} m \n" +
+                   $"Peso: {peso} kg \n";
         }
     }
 }
